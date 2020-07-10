@@ -1,4 +1,4 @@
-ARG port
+ARG port=80
 
 # Stage 1 - the build process
 FROM node:12.16 as build-react
