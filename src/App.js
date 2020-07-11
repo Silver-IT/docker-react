@@ -4,7 +4,7 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  const [count, setCount] = useState(0);
+  const [count, setCount] = useState(-1);
 
   const getUsers = () => {
     axios.get('http://localhost:3030/users').then(res => {
